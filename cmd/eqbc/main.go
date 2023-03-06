@@ -11,7 +11,7 @@ import (
 
 var args struct {
 	Host        string `help:"Listen to host." default:"0.0.0.0"`
-	Port        int    `help:"Listen to port." default:"2112"`
+	Port        int    `help:"Listen to port." default:"6550"`
 	Password    string `help:"Server password." default:""`
 	Verbose     bool   `short:"v" help:"Be more verbose."`
 	NoTimestamp bool   `help:"Hide timestamps from log."`
